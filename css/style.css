@@ -1,0 +1,86 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+input::placeholder { 
+  color: white;
+  opacity: 1;
+}
+
+body{
+	background-image: url("back.jpg");	
+	background-repeat: no-repeat;
+    background-size: 100% 140%;
+    position: relative;
+}
+.login-box{
+	background-color: black;
+	width: 350px;
+	height: 435px;
+	color: white;
+	transform: translate(137%,20%);
+}
+.face-photo{
+	background-image: url(face.png);
+	width: 100px;
+	height: 100px;
+	margin-left:125px;
+	background-size: contain;
+	transform: translate(-4%,-46%);
+	clip-path: circle(50%);
+}
+
+h1{
+	margin-top: -30px;
+}
+
+.form{
+	margin-top: 10px;
+	margin-left: 40px;
+}
+input[type="text"]{
+	margin-bottom: 10px;
+	width: 275px;
+	height: 30px;
+	background-color: black;
+	color: white;
+	border:1px solid white;
+	border-radius: 100px;
+}
+select{
+	margin-bottom: 10px;
+	width: 275px;
+	height: 30px;
+}
+
+button{
+	width: 275px;
+	height: 36px;
+	text-align: center;
+	background-color: #ff6448;
+	color: white;
+	border-radius: 100px;
+}
+
+.label-email{
+	margin-bottom: 10px;
+}
+
+a{
+	text-decoration:none; 
+	color:white;
+    margin-left: 45px;
+    font-weight: bold;
+    font-size: 15px;
+}
+hr{
+	width: 114px;
+	height: 0px;
+	display: inline-block;
+	line-height: 5px;
+}
+.or-text{
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
